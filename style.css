@@ -1,0 +1,61 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.calcula{
+    display: flex;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: gold;
+    padding: 50px;
+    border: 4px solid #445161;
+    border-radius: 30%;
+}
+
+.calcula .operations-block button {
+    width: 40px;
+    min-height: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: x-large;
+    outline: none;
+    cursor: pointer;
+    color: #445161;
+    background-color: #fff;
+    text-align: center;
+    border: 4px solid #445161;
+}
+
+
+.calcula .operations-block button:hover {
+    background-color: #445161;
+    color: #fff;
+}
+/* 
+.calcula .oper-block button:active {
+    background-color: #fff;
+    color: #445161;
+} */
+
+.calcula .inputs-block .input-block {
+    display: inline-block;
+}
+
+.calcula .inputs-block .input-block label {
+    display: block;
+    font-size: x-large;
+}
+
+.calcula .inputs-block .input-block .input-spot {
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    border: 4px solid #445161;
+    border-radius: 15%;
+    width: 70%;
+}
+
+
+
