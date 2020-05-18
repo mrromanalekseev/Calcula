@@ -15,14 +15,15 @@ function makeOperation(operationCode) {
     let number1 = Number(input1.value);
     let number2 = Number(input2.value);
 
+    let result;
     if (operationCode === '+') {
-        var result = number1 + number2;
+        result = number1 + number2;
     } else if (operationCode === '-') {
-        var result = number1 - number2;
+        result = number1 - number2;
     } else if (operationCode === '*') {
-        var result = number1 * number2;
+        result = number1 * number2;
     } else if (operationCode === '/') {
-        var result = number1 / number2;
+        result = number1 / number2;
     } else {
         window.alert('operation is unknown');
     }
